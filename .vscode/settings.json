@@ -1,0 +1,9 @@
+{
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "file": "./.vscode/daisyui.md"
+    }
+  ],
+  "cSpell.words": ["thirdweb"],
+  "wake.compiler.solc.remappings": []
+}

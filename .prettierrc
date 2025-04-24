@@ -1,0 +1,27 @@
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "printWidth": 140,
+  "useTabs": false,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "proseWrap": "always",
+  "bracketSpacing": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "bracketSameLine": true,
+
+  "overrides": [
+    {
+      "files": "*.md",
+      "options": {
+        "useTabs": false
+      }
+    },
+    {
+      "files": "*.{json,babelrc,eslintrc,remarkrc,prettierrc}",
+      "options": {
+        "useTabs": false
+      }
+    }
+  ]
+}
